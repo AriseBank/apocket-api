@@ -1,4 +1,4 @@
-# apocket-api
+# aPocket API
 aPocket API Backend Service for aPocket applications and CLIs.
 
 # Description
