@@ -1,19 +1,13 @@
-
 # apocket-api
-
-[![NPM Package](https://img.shields.io/npm/v/apocket-api.svg?style=flat-square)](https://www.npmjs.org/package/apocket-api)
-[![Build Status](https://img.shields.io/travis/bitpay/apocket-api.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/apocket-api)
-[![Coverage Status](https://coveralls.io/repos/bitpay/apocket-api/badge.svg?branch=master)](https://coveralls.io/r/bitpay/apocket-api?branch=master)
-
-A Multisig HD aPocket Wallet Service.
+aPocket API Backend Service for aPocket applications and CLIs.
 
 # Description
 
-aPocket Wallet Service facilitates multisig HD wallets creation and operation through a (hopefully) simple and intuitive REST API.
+aPocket's backend API service facilitates multisig HD wallets creation and operation through a simple and intuitive REST API.
 
 APWS can usually be installed within minutes and accommodates all the needed infrastructure for peers in a multisig wallet to communicate and operate – with minimum server trust.
 
-See [Bitcore-wallet-client](https://github.com/arisebank/bitcore-wallet-client) for the *official* client library that communicates to APWS and verifies its response. Also check [Bitcore-wallet](https://github.com/arisebank/bitcore-wallet) for a simple CLI wallet implementation that relies on APWS.
+See [aPocket Library](https://github.com/arisebank/apocket-lib) for the *official* client library that communicates to APWS and verifies its response. Also check [aPocket-CLI](https://github.com/arisebank/bitcore-wallet) for a simple CLI wallet implementation that relies on APWS.
 
 APWS is been used in production enviroments for [aPocket](https://arisebank.com/apocket), [aBank](https://arisebank.com/abank) and others.  
 
@@ -50,7 +44,7 @@ APWS uses by default a Request Rate Limitation to CreateWallet endpoint. If you 
 ```
 Identity is the Peer-ID, this will identify the peer and its wallet. Signature is the current request signature, using `requestSigningKey`, the `m/1/1` derivative of the Extended Private Key.
 
-See [Bitcore Wallet Client](https://github.com/arisebank/bitcore-wallet-client/blob/master/lib/api.js#L73) for implementation details.
+See [Bitcore Wallet Client](https://github.com/arisebank/apocket-lib/blob/master/lib/api.js#L73) for implementation details.
 
 
 ## GET Endpoints
