@@ -7,7 +7,6 @@ aPocket's backend API service facilitates multisig HD wallets creation and opera
 
 APWS can usually be installed within minutes and accommodates all the needed infrastructure for peers in a multisig wallet to communicate and operate – with minimum server trust.
 
-<<<<<<< HEAD
 See [aPocket Library](https://github.com/arisebank/apocket-lib) for the *official* client library that communicates to APWS and verifies its response. Also check [aPocket-CLI](https://github.com/arisebank/apocket-cli) for a simple CLI wallet implementation that relies on APWS.
 =======
 See [aPocket Library](https://github.com/arisebank/apocket-lib) for the *official* client library that communicates to APWS and verifies its response. Also check [aPocket-CLI](https://github.com/arisebank/bitcore-wallet) for a simple CLI wallet implementation that relies on APWS.
