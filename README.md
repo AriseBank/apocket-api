@@ -7,7 +7,11 @@ aPocket's backend API service facilitates multisig HD wallets creation and opera
 
 APWS can usually be installed within minutes and accommodates all the needed infrastructure for peers in a multisig wallet to communicate and operate – with minimum server trust.
 
+<<<<<<< HEAD
 See [aPocket Library](https://github.com/arisebank/apocket-lib) for the *official* client library that communicates to APWS and verifies its response. Also check [aPocket-CLI](https://github.com/arisebank/apocket-cli) for a simple CLI wallet implementation that relies on APWS.
+=======
+See [aPocket Library](https://github.com/arisebank/apocket-lib) for the *official* client library that communicates to APWS and verifies its response. Also check [aPocket-CLI](https://github.com/arisebank/bitcore-wallet) for a simple CLI wallet implementation that relies on APWS.
+>>>>>>> 5340d952c6ee16a5eb86c720a5e3eaef0942bb93
 
 APWS is been used in production enviroments for [aPocket](https://arisebank.com/apocket), [aBank](https://arisebank.com/abank) and others.  
 
@@ -44,7 +48,11 @@ APWS uses by default a Request Rate Limitation to CreateWallet endpoint. If you 
 ```
 Identity is the Peer-ID, this will identify the peer and its wallet. Signature is the current request signature, using `requestSigningKey`, the `m/1/1` derivative of the Extended Private Key.
 
+<<<<<<< HEAD
 See [aPocket Library](https://github.com/arisebank/apocket-lib/blob/master/lib/api.js#L73) for implementation details.
+=======
+See [Bitcore Wallet Client](https://github.com/arisebank/apocket-lib/blob/master/lib/api.js#L73) for implementation details.
+>>>>>>> 5340d952c6ee16a5eb86c720a5e3eaef0942bb93
 
 
 ## GET Endpoints
