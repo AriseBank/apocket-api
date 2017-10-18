@@ -41,14 +41,14 @@ var config = {
     btc: {
       livenet: {
         provider: 'insight',
-        url: 'https://bitex.arisebank.com:443',
+        url: 'https://bitex.arisebank.network:443',
       },
       testnet: {
         provider: 'insight',
         url: 'https://bitex-test.arisebank.com:443',
         // url: 'http://localhost:3001',
         // Multiple servers (in priority order)
-        // url: ['http://a.b.c', 'http://bitex-test.arisebank.com:80'],
+        // url: ['http://a.b.c', 'http://bitex-test.arisebank.network:80'],
       },
     },
     bch: {
@@ -75,14 +75,14 @@ var config = {
   //  host: 'localhost',
   //  port: 25,
   //  ignoreTLS: true,
-  //  subjectPrefix: '[Wallet Service]',
-  //  from: 'wallet-service@bitcore.io',
+  //  subjectPrefix: '[aPocket Wallet Service]',
+  //  from: 'AriseBank aPocket',
   //  templatePath: './lib/templates',
   //  defaultLanguage: 'en',
   //  defaultUnit: 'btc',
   //  publicTxUrlTemplate: {
-  //    livenet: 'http://bitex.arisebank.com/tx/{{txid}}',
-  //    testnet: 'http://bitex-test.arisebank.com/tx/{{txid}}',
+  //    livenet: 'http://bitex.arisebank.network/tx/{{txid}}',
+  //    testnet: 'http://bitex-test.arisebank.network/tx/{{txid}}',
   //  },
   //},
   //
